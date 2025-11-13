@@ -1,10 +1,13 @@
 <?php
 // --- SAMPLE STAFF DATA (Replace with DB data later) ---
-$staffList = [
-    ["id" => "STAFF-001", "name" => "Banjo Olawunmi", "department" => "SRPR", "status" => "Active"],
-    ["id" => "STAFF-002", "name" => "Fadina Aderonke", "department" => "ISD", "status" => "Inactive"],
-    ["id" => "STAFF-003", "name" => "Sobowale Atinuke", "department" => "Admin", "status" => "Active"],
-];
+// $staffList = [
+//     ["id" => "STAFF-001", "name" => "Banjo Olawunmi", "department" => "SRPR", "status" => "Active"],
+//     ["id" => "STAFF-002", "name" => "Fadina Aderonke", "department" => "ISD", "status" => "Inactive"],
+//     ["id" => "STAFF-003", "name" => "Sobowale Atinuke", "department" => "Admin", "status" => "Active"],
+// ];
+
+include '../app/views/layouts/sidebar.php';
+
 ?>
 
 
@@ -20,7 +23,7 @@ $staffList = [
 <body class="min-h-screen flex bg-gray-100">
 
     <!-- Sidebar (FULL HEIGHT) -->
-    <aside class="w-64 bg-blue-900 text-white flex flex-col min-h-screen">
+    <!-- <aside class="w-64 bg-blue-900 text-white flex flex-col min-h-screen">
         <div class="p-6 text-2xl font-bold border-b border-blue-800">
             🏛️ Estab Exam Dashboard
         </div>
@@ -34,7 +37,7 @@ $staffList = [
         <div class="p-4 border-t border-blue-800">
             <button class="w-full bg-blue-700 hover:bg-blue-600 py-2 rounded">Logout</button>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Main Content -->
     <main class="flex-1 p-6">
